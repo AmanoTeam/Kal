@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare extra_configure_flags='--with-cpu=cortex-a8 --with-fpu=neon --with-float=softfp --with-mode=thumb'
+declare extra_configure_flags='--with-cpu=cortex-a8 --with-fpu=neon --with-float=hard --with-mode=thumb'
 
 declare triplet='arm-kobo-linux-gnueabihf'
 
